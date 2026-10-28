@@ -1,0 +1,30 @@
+# --- Maven output: rebuilt inside the image anyway ---
+target/
+.m2/
+
+# --- Git metadata ---
+.git/
+.gitignore
+
+# --- IDE junk ---
+.idea/
+.vscode/
+*.iml
+
+# --- Not needed at build time ---
+README.md
+docs/
+scripts/
+nginx/
+Jenkinsfile
+docker-compose.yml
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Secrets ---
+.env
+.env.*
+*.pem
+*.key
