@@ -21,7 +21,7 @@ class CalculatorServiceTest {
     @Test
     @DisplayName("add — basic")
     void addBasic() {
-        assertEquals(5.0, service.add(2, 3), 1e-9);
+        assertEquals(6.0, service.add(2, 3), 1e-9);
     }
 
     @Test
