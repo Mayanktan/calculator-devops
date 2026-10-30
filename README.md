@@ -132,10 +132,17 @@ Build status is emailed on success and failure (Email Extension plugin, SMTP set
 ./scripts/preflight.sh   # stops at the first failed check; args: [github-user] [dockerhub-user] [jenkins-url]
 ```
 
-## Links
+## Submission
 
-- GitHub: https://github.com/Mayanktan/calculator-devops
-- Docker Hub: https://hub.docker.com/r/mayanktan/calculator-devops
-- Report: [docs/report.pdf](docs/report.pdf) (short, 3 pages) and [detailed-report.pdf](detailed-report.pdf) (full)
-- Screenshots: [docs/screenshots/](docs/screenshots/)
-- Run and test guide: [test.pdf](test.pdf)
+| Deliverable | Where |
+|-------------|-------|
+| Source, Jenkinsfile, Dockerfile, docker-compose.yml | this repository |
+| Docker Hub image (public) | https://hub.docker.com/r/mayanktan/calculator-devops |
+| Report (PDF) | [docs/report.pdf](docs/report.pdf) |
+| Screenshot: green Jenkins pipeline run | [docs/screenshots/required/1-jenkins-pipeline-green.png](docs/screenshots/required/1-jenkins-pipeline-green.png) |
+| Screenshot: email notification | [success](docs/screenshots/required/2-email-success-build5.png), [failure](docs/screenshots/required/2-email-failure-build4.png) |
+| Screenshot: `docker ps` | [docs/screenshots/required/3-docker-ps.png](docs/screenshots/required/3-docker-ps.png) |
+| Screenshot: sample API responses | [docs/screenshots/required/4-api-responses.png](docs/screenshots/required/4-api-responses.png) |
+
+More evidence is in [docs/screenshots/supporting/](docs/screenshots/supporting/). A longer write-up is in
+[detailed-report.pdf](detailed-report.pdf), and a step-by-step run and test guide in [test.pdf](test.pdf).
