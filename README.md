@@ -136,3 +136,6 @@ Build status is emailed on success and failure (Email Extension plugin, SMTP set
 
 - GitHub: https://github.com/Mayanktan/calculator-devops
 - Docker Hub: https://hub.docker.com/r/mayanktan/calculator-devops
+- Report: [docs/report.pdf](docs/report.pdf) (short, 3 pages) and [detailed-report.pdf](detailed-report.pdf) (full)
+- Screenshots: [docs/screenshots/](docs/screenshots/)
+- Run and test guide: [test.pdf](test.pdf)
